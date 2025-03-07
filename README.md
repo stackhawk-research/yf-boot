@@ -1,24 +1,22 @@
-# 关于
+# About
 
-> 云帆快速开发框架是一个前后端分离的企业应用快速开发框架，后端基于SpringBoot/Shiro/MyBats，前端基于Vue3+Vite+Ts+ElementPlus开发，并提供在线代码生成器一键生成CRUD代码、在线模块市场提供丰富的模块实现，可以帮您以极少的成本实现稳定可靠的功能。
+> Yunfan Rapid Development Framework is a rapid development framework for enterprise applications with front-end and back-end separation. The back-end is based on SpringBoot/Shiro/MyBats, and the front-end is developed based on Vue3+Vite+Ts+ElementPlus. It also provides an online code generator to generate CRUD code with one click, and the online module market provides rich module implementations, which can help you achieve stable and reliable functions at a very low cost.
 
+## Preface
+This framework adopts a front-end and back-end separation architecture, with the back-end based on SpringBoot and the front-end based on Vue; the interface uniformly uses POST for data transmission, the code structure fully complies with the Swagger annotation specification, and provides corresponding interface documents (http://localhost:8080/doc.html)
+Before using this framework, please ensure that the company's technology selection and development ideas match this system to avoid unnecessary work.
 
-## 写在前面
-本框架采用前后端分离架构，后端基于SpringBoot，前端基于Vue；接口统一采用POST进行数据传递，代码结构完全遵循Swagger注释规范，并提供相应的接口文档（http://localhost:8080/doc.html）
-使用本框架前，请确保公司的技术选型及开发思路与本系统相匹配，避免做无谓的工作。
+## Framework Features
+### Document Specifications
+The code of this system is written in accordance with Alibaba's coding specifications, and is annotated using Swagger specifications to directly generate interface documents, which is convenient for front-end and back-end collaborative development, without the need for handwritten documents, and saves development time.
+### Rich components
+The system backend includes conventional user systems, permission systems, organizational structures, general capabilities (import and export, verification codes, registration and login) and other functions; the front end encapsulates common components such as data tables, import and export, file uploads, and graphic verification codes.
+### Code generation
+Provide online code generation tools. Paste the table creation statement to generate entity, service, controller, mapper class, etc. with one click, and download it in a package. Just copy the downloaded code to your project
+### Module market
+The module market provides a large number of mature business implementations, such as: payment, file storage, three-party login and other components. You can quickly integrate the desired functions at a very low cost
 
-## 框架特色
-### 文档规范
-本系统代码遵循阿里巴巴编码规范编写，同时使用Swagger规范进行注释，直接生成接口文档，便于前后端协同开发，无需手写文档，节约开发时间。
-### 组件丰富
-系统后端包含了常规的用户系统、权限系统、组织架构、通用能力（导入导出、验证码、注册登录）等功能；前端封装了数据表格、导入导出、文件上传、图形验证码等常用组件。
-### 代码生成
-提供在线的代码生成工具，贴入建表语句就可以一键生成entity、service、controller、mapper类等，并实现打包下载，直接将下载的代码复制到您的项目即可
-### 模块市场
-模块市场提供大量的成熟的业务实现、如：支付、文件存储、三方登录等组件、只需花极低的成本即可快速集成想要的功能
-
-## 产品功能
-
+## Product features
 
 ### 技术选型
 **1、系统环境**      
